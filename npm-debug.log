@@ -1,0 +1,80 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/vagrant/.nvm/v0.11.14/bin/node',
+1 verbose cli   '/home/vagrant/.nvm/v0.11.14/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'expresss',
+1 verbose cli   '--save' ]
+2 info using npm@2.0.0
+3 info using node@v0.11.14
+4 warn package.json mafia-frame@1.0.0 No description
+5 warn package.json mafia-frame@1.0.0 No repository field.
+6 warn package.json mafia-frame@1.0.0 No README data
+7 verbose readDependencies using package.json deps
+8 verbose cache add [ 'expresss', null ]
+9 verbose cache add spec="expresss" args=["expresss",null]
+10 verbose parsed spec { raw: 'expresss',
+10 verbose parsed spec   scope: null,
+10 verbose parsed spec   name: 'expresss',
+10 verbose parsed spec   rawSpec: '',
+10 verbose parsed spec   spec: '*',
+10 verbose parsed spec   type: 'range' }
+11 verbose parsed spec { raw: 'expresss',
+11 verbose parsed spec   scope: null,
+11 verbose parsed spec   name: 'expresss',
+11 verbose parsed spec   rawSpec: '',
+11 verbose parsed spec   spec: '*',
+11 verbose parsed spec   type: 'range' }
+12 verbose addNamed [ 'expresss', '*' ]
+13 verbose addNamed [ null, '*' ]
+14 silly lockFile 3cdd6e7e-expresss expresss@*
+15 verbose lock expresss@* /home/vagrant/.npm/3cdd6e7e-expresss.lock
+16 silly addNameRange { name: 'expresss', range: '*', hasData: false }
+17 verbose mapToRegistry name expresss
+18 verbose mapToRegistry uri https://registry.npmjs.org/expresss
+19 verbose request on initialization, where is /expresss
+20 verbose request after pass 1, where is /expresss
+21 verbose request url raw /expresss
+22 verbose request resolving registry [ 'https://registry.npmjs.org/', './expresss' ]
+23 verbose request after pass 2, where is https://registry.npmjs.org/expresss
+24 verbose request no auth needed
+25 info attempt registry request try #1 at 02:42:52
+26 verbose request id 9c757a78528c1f7d
+27 http request GET https://registry.npmjs.org/expresss
+28 http 404 https://registry.npmjs.org/expresss
+29 silly registry.get cb [ 404,
+29 silly registry.get   { 'content-type': 'application/json',
+29 silly registry.get     'cache-control': 'max-age=0',
+29 silly registry.get     'content-length': '2',
+29 silly registry.get     'accept-ranges': 'bytes',
+29 silly registry.get     date: 'Thu, 05 Nov 2015 02:42:53 GMT',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     age: '0',
+29 silly registry.get     connection: 'close',
+29 silly registry.get     'x-served-by': 'cache-sjc3134-SJC',
+29 silly registry.get     'x-cache': 'MISS',
+29 silly registry.get     'x-cache-hits': '0',
+29 silly registry.get     'x-timer': 'S1446691372.941965,VS0,VE92' } ]
+30 silly lockFile 3cdd6e7e-expresss expresss@*
+31 silly lockFile 3cdd6e7e-expresss expresss@*
+32 verbose stack Error: Not Found
+32 verbose stack     at errorResponse (/home/vagrant/.nvm/v0.11.14/lib/node_modules/npm/lib/cache/add-named.js:267:10)
+32 verbose stack     at setData (/home/vagrant/.nvm/v0.11.14/lib/node_modules/npm/lib/cache/add-named.js:210:12)
+32 verbose stack     at saved (/home/vagrant/.nvm/v0.11.14/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+32 verbose stack     at Object.oncomplete (fs.js:93:15)
+33 verbose statusCode 404
+34 verbose pkgid expresss
+35 verbose cwd /home/vagrant/mafia-frame
+36 error Linux 3.13.0-24-generic
+37 error argv "/home/vagrant/.nvm/v0.11.14/bin/node" "/home/vagrant/.nvm/v0.11.14/bin/npm" "install" "expresss" "--save"
+38 error node v0.11.14
+39 error npm  v2.0.0
+40 error code E404
+41 error 404 Not Found
+41 error 404
+41 error 404 'expresss' is not in the npm registry.
+41 error 404 You should bug the author to publish it (or use the name yourself!)
+41 error 404 It was specified as a dependency of 'mafia-frame'
+41 error 404
+41 error 404 Note that you can also install from a
+41 error 404 tarball, folder, http url, or git url.
+42 verbose exit [ 1, true ]

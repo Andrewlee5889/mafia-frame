@@ -12,5 +12,9 @@
     "babel": "^6.0.15",
     "chai": "^3.4.0",
     "mocha": "^2.3.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3"
   }
 }
